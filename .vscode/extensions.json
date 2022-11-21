@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "visualstudioexptteam.vscodeintellicode",
+        "editorconfig.editorconfig"
+    ]
+}

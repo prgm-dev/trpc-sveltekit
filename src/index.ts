@@ -1,7 +1,7 @@
 import type { Handle, RequestEvent } from '@sveltejs/kit';
 import type { AnyRouter, Dict } from '@trpc/server';
-import { resolveHTTPResponse } from '@trpc/server';
-import { CreateContextFn, ResponseMetaFn } from './types';
+import { resolveHTTPResponse } from '@trpc/server/http';
+import type { CreateContextFn, ResponseMetaFn } from './types';
 
 /**
  * A function that creates a tRPC handle.
